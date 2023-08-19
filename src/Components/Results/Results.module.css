@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 21rem;
+
+}
+
+.table td,
+th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.btn {
+    width: max-content;
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
